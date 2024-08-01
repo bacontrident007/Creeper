@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+}
+
+:root {
+    --creeper-color: #13d713;
+}
+
+.principal-header {
+    display: flex;
+    justify-content: right;
+    background-color: var(--creeper-color);
+    padding: 30px;
+    border-bottom: 2px solid black;
+}
+
+.principal-list {
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.item-list {
+    display: flex;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.item-list:hover {
+    text-decoration: underline;
+}
+
+.principal-title {
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.principal-content-a {
+    display: flex;
+    top: 0px;
+}
+
+.span-creeper img {
+    width: 130px;
+    padding: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.principal-text-a {
+    width: 100%;
+}
+
+.span-pig img {
+    width: 150px;
+    padding: 30px; 
+    margin-left: 30px;
+    display: flex;
+}
+
+.creeper-title , .pig-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.principal-text-a p {
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.border {
+    border-top: 2px solid black;
+    width: 200px;
+    padding-left: 100%;
+    margin-bottom: 5px;
+    height: 1px;
+}
+
+.principal-footer {
+    padding: 50px;
+    background-color: var(--creeper-color);
+    border-top: 2px solid black;
+}
